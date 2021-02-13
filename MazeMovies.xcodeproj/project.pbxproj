@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56E9F17EAF4DB4B71FCD522D /* Pods_MazeMovies_MazeMoviesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7991E7CE14EC78154EBB6159 /* Pods_MazeMovies_MazeMoviesUITests.framework */; };
 		9D4C1D5625CFD0E600B59669 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C1D5525CFD0E600B59669 /* AppDelegate.swift */; };
 		9D4C1D5825CFD0E600B59669 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C1D5725CFD0E600B59669 /* SceneDelegate.swift */; };
 		9D4C1D6025CFD0E600B59669 /* MazeMovies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C1D5E25CFD0E600B59669 /* MazeMovies.xcdatamodeld */; };
@@ -15,6 +16,17 @@
 		9D4C1D7025CFD0E900B59669 /* MazeMoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C1D6F25CFD0E900B59669 /* MazeMoviesTests.swift */; };
 		9D4C1D7B25CFD0E900B59669 /* MazeMoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C1D7A25CFD0E900B59669 /* MazeMoviesUITests.swift */; };
 		9D4C1D9225CFD1D200B59669 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C1D9125CFD1D200B59669 /* LoginViewController.swift */; };
+		9D4C1D9B25CFDF7400B59669 /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C1D9A25CFDF7400B59669 /* UIView+Additions.swift */; };
+		9DD41CB125D7FF9C00E4CB99 /* MMMainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD41CB025D7FF9C00E4CB99 /* MMMainTabBarController.swift */; };
+		9DD41CB625D7FFEB00E4CB99 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD41CB525D7FFEB00E4CB99 /* HomeViewController.swift */; };
+		9DD41CBB25D7FFFE00E4CB99 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD41CBA25D7FFFE00E4CB99 /* SearchViewController.swift */; };
+		9DD41CC025D8001000E4CB99 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD41CBF25D8001000E4CB99 /* ProfileViewController.swift */; };
+		9DD41CC525D8004400E4CB99 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD41CC425D8004400E4CB99 /* FavoritesViewController.swift */; };
+		9DD41CCA25D8005200E4CB99 /* WatchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD41CC925D8005200E4CB99 /* WatchListViewController.swift */; };
+		9DD41CCF25D80C3000E4CB99 /* MMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD41CCE25D80C3000E4CB99 /* MMViewController.swift */; };
+		9DEC3DF425D564F300DCA64C /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC3DF325D564F300DCA64C /* UIColor+Additions.swift */; };
+		A9145F9B04E4FF041C034CB6 /* Pods_MazeMoviesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C9F1A63AA944458BAF1A29 /* Pods_MazeMoviesTests.framework */; };
+		E31F4BF4BCE10834655FD8D5 /* Pods_MazeMovies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CCA84B65B2B5ACE84F17EA /* Pods_MazeMovies.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D17095D6BDB9568FFECC47E /* Pods-MazeMovies-MazeMoviesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MazeMovies-MazeMoviesUITests.release.xcconfig"; path = "Target Support Files/Pods-MazeMovies-MazeMoviesUITests/Pods-MazeMovies-MazeMoviesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		43CCA84B65B2B5ACE84F17EA /* Pods_MazeMovies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MazeMovies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C9F1A63AA944458BAF1A29 /* Pods_MazeMoviesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MazeMoviesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		699DFF3F7ABD99C3985CE0FB /* Pods-MazeMovies-MazeMoviesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MazeMovies-MazeMoviesUITests.debug.xcconfig"; path = "Target Support Files/Pods-MazeMovies-MazeMoviesUITests/Pods-MazeMovies-MazeMoviesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7991E7CE14EC78154EBB6159 /* Pods_MazeMovies_MazeMoviesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MazeMovies_MazeMoviesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86BA87117D1CCAA268514DF1 /* Pods-MazeMovies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MazeMovies.debug.xcconfig"; path = "Target Support Files/Pods-MazeMovies/Pods-MazeMovies.debug.xcconfig"; sourceTree = "<group>"; };
+		9D285D59247CF3075FC52EF8 /* Pods-MazeMovies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MazeMovies.release.xcconfig"; path = "Target Support Files/Pods-MazeMovies/Pods-MazeMovies.release.xcconfig"; sourceTree = "<group>"; };
 		9D4C1D5225CFD0E600B59669 /* MazeMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MazeMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4C1D5525CFD0E600B59669 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D4C1D5725CFD0E600B59669 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +68,17 @@
 		9D4C1D7A25CFD0E900B59669 /* MazeMoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeMoviesUITests.swift; sourceTree = "<group>"; };
 		9D4C1D7C25CFD0E900B59669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D4C1D9125CFD1D200B59669 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9D4C1D9A25CFDF7400B59669 /* UIView+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Additions.swift"; sourceTree = "<group>"; };
+		9DD41CB025D7FF9C00E4CB99 /* MMMainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMMainTabBarController.swift; sourceTree = "<group>"; };
+		9DD41CB525D7FFEB00E4CB99 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9DD41CBA25D7FFFE00E4CB99 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		9DD41CBF25D8001000E4CB99 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		9DD41CC425D8004400E4CB99 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		9DD41CC925D8005200E4CB99 /* WatchListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListViewController.swift; sourceTree = "<group>"; };
+		9DD41CCE25D80C3000E4CB99 /* MMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMViewController.swift; sourceTree = "<group>"; };
+		9DEC3DF325D564F300DCA64C /* UIColor+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
+		DA48FD1ECD6DAE0E328158AC /* Pods-MazeMoviesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MazeMoviesTests.release.xcconfig"; path = "Target Support Files/Pods-MazeMoviesTests/Pods-MazeMoviesTests.release.xcconfig"; sourceTree = "<group>"; };
+		DFD0EC7406F62E4FDD9A639D /* Pods-MazeMoviesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MazeMoviesTests.debug.xcconfig"; path = "Target Support Files/Pods-MazeMoviesTests/Pods-MazeMoviesTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E31F4BF4BCE10834655FD8D5 /* Pods_MazeMovies.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9145F9B04E4FF041C034CB6 /* Pods_MazeMoviesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +102,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56E9F17EAF4DB4B71FCD522D /* Pods_MazeMovies_MazeMoviesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B42567FABF6D02F4247803C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86BA87117D1CCAA268514DF1 /* Pods-MazeMovies.debug.xcconfig */,
+				9D285D59247CF3075FC52EF8 /* Pods-MazeMovies.release.xcconfig */,
+				699DFF3F7ABD99C3985CE0FB /* Pods-MazeMovies-MazeMoviesUITests.debug.xcconfig */,
+				3D17095D6BDB9568FFECC47E /* Pods-MazeMovies-MazeMoviesUITests.release.xcconfig */,
+				DFD0EC7406F62E4FDD9A639D /* Pods-MazeMoviesTests.debug.xcconfig */,
+				DA48FD1ECD6DAE0E328158AC /* Pods-MazeMoviesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9D4C1D4925CFD0E600B59669 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +129,8 @@
 				9D4C1D6E25CFD0E900B59669 /* MazeMoviesTests */,
 				9D4C1D7925CFD0E900B59669 /* MazeMoviesUITests */,
 				9D4C1D5325CFD0E600B59669 /* Products */,
+				4B42567FABF6D02F4247803C /* Pods */,
+				A24A66F01979B663059FE017 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +148,10 @@
 			isa = PBXGroup;
 			children = (
 				9D4C1D5525CFD0E600B59669 /* AppDelegate.swift */,
-				9D4C1D9125CFD1D200B59669 /* LoginViewController.swift */,
 				9D4C1D5725CFD0E600B59669 /* SceneDelegate.swift */,
 				9D4C1D6125CFD0E900B59669 /* Assets.xcassets */,
+				9D4C1D9925CFDF4400B59669 /* Supporting Files */,
+				9DD41CAF25D7FF4100E4CB99 /* View Controllers */,
 				9D4C1D6325CFD0E900B59669 /* LaunchScreen.storyboard */,
 				9D4C1D6625CFD0E900B59669 /* Info.plist */,
 				9D4C1D5E25CFD0E600B59669 /* MazeMovies.xcdatamodeld */,
@@ -128,6 +177,40 @@
 			path = MazeMoviesUITests;
 			sourceTree = "<group>";
 		};
+		9D4C1D9925CFDF4400B59669 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D4C1D9A25CFDF7400B59669 /* UIView+Additions.swift */,
+				9DEC3DF325D564F300DCA64C /* UIColor+Additions.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DD41CAF25D7FF4100E4CB99 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9D4C1D9125CFD1D200B59669 /* LoginViewController.swift */,
+				9DD41CCE25D80C3000E4CB99 /* MMViewController.swift */,
+				9DD41CB025D7FF9C00E4CB99 /* MMMainTabBarController.swift */,
+				9DD41CB525D7FFEB00E4CB99 /* HomeViewController.swift */,
+				9DD41CBA25D7FFFE00E4CB99 /* SearchViewController.swift */,
+				9DD41CBF25D8001000E4CB99 /* ProfileViewController.swift */,
+				9DD41CC425D8004400E4CB99 /* FavoritesViewController.swift */,
+				9DD41CC925D8005200E4CB99 /* WatchListViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		A24A66F01979B663059FE017 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43CCA84B65B2B5ACE84F17EA /* Pods_MazeMovies.framework */,
+				7991E7CE14EC78154EBB6159 /* Pods_MazeMovies_MazeMoviesUITests.framework */,
+				65C9F1A63AA944458BAF1A29 /* Pods_MazeMoviesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D4C1D7F25CFD0E900B59669 /* Build configuration list for PBXNativeTarget "MazeMovies" */;
 			buildPhases = (
+				48044CB07CEB4A6ABBFA881F /* [CP] Check Pods Manifest.lock */,
 				9D4C1D4E25CFD0E600B59669 /* Sources */,
 				9D4C1D4F25CFD0E600B59669 /* Frameworks */,
 				9D4C1D5025CFD0E600B59669 /* Resources */,
+				9D29021025D66E6100C1E0BB /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -152,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D4C1D8225CFD0E900B59669 /* Build configuration list for PBXNativeTarget "MazeMoviesTests" */;
 			buildPhases = (
+				7642F3B00C04B629A1615BA5 /* [CP] Check Pods Manifest.lock */,
 				9D4C1D6725CFD0E900B59669 /* Sources */,
 				9D4C1D6825CFD0E900B59669 /* Frameworks */,
 				9D4C1D6925CFD0E900B59669 /* Resources */,
@@ -170,6 +256,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D4C1D8525CFD0E900B59669 /* Build configuration list for PBXNativeTarget "MazeMoviesUITests" */;
 			buildPhases = (
+				0DAD50C0756629BF300C86F2 /* [CP] Check Pods Manifest.lock */,
 				9D4C1D7225CFD0E900B59669 /* Sources */,
 				9D4C1D7325CFD0E900B59669 /* Frameworks */,
 				9D4C1D7425CFD0E900B59669 /* Resources */,
@@ -252,15 +339,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DAD50C0756629BF300C86F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MazeMovies-MazeMoviesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48044CB07CEB4A6ABBFA881F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MazeMovies-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7642F3B00C04B629A1615BA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MazeMoviesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D29021025D66E6100C1E0BB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9D4C1D4E25CFD0E600B59669 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D4C1D9B25CFDF7400B59669 /* UIView+Additions.swift in Sources */,
 				9D4C1D9225CFD1D200B59669 /* LoginViewController.swift in Sources */,
+				9DD41CC025D8001000E4CB99 /* ProfileViewController.swift in Sources */,
 				9D4C1D5625CFD0E600B59669 /* AppDelegate.swift in Sources */,
+				9DD41CBB25D7FFFE00E4CB99 /* SearchViewController.swift in Sources */,
+				9DD41CB625D7FFEB00E4CB99 /* HomeViewController.swift in Sources */,
+				9DD41CC525D8004400E4CB99 /* FavoritesViewController.swift in Sources */,
 				9D4C1D5825CFD0E600B59669 /* SceneDelegate.swift in Sources */,
+				9DD41CCF25D80C3000E4CB99 /* MMViewController.swift in Sources */,
+				9DD41CB125D7FF9C00E4CB99 /* MMMainTabBarController.swift in Sources */,
 				9D4C1D6025CFD0E600B59669 /* MazeMovies.xcdatamodeld in Sources */,
+				9DD41CCA25D8005200E4CB99 /* WatchListViewController.swift in Sources */,
+				9DEC3DF425D564F300DCA64C /* UIColor+Additions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +607,7 @@
 		};
 		9D4C1D8025CFD0E900B59669 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86BA87117D1CCAA268514DF1 /* Pods-MazeMovies.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,6 +627,7 @@
 		};
 		9D4C1D8125CFD0E900B59669 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D285D59247CF3075FC52EF8 /* Pods-MazeMovies.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -463,6 +647,7 @@
 		};
 		9D4C1D8325CFD0E900B59669 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFD0EC7406F62E4FDD9A639D /* Pods-MazeMoviesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +670,7 @@
 		};
 		9D4C1D8425CFD0E900B59669 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA48FD1ECD6DAE0E328158AC /* Pods-MazeMoviesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +693,7 @@
 		};
 		9D4C1D8625CFD0E900B59669 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 699DFF3F7ABD99C3985CE0FB /* Pods-MazeMovies-MazeMoviesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +714,7 @@
 		};
 		9D4C1D8725CFD0E900B59669 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D17095D6BDB9568FFECC47E /* Pods-MazeMovies-MazeMoviesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
