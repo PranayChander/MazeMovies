@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,7 +24,6 @@
 		9DD41CC525D8004400E4CB99 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD41CC425D8004400E4CB99 /* FavoritesViewController.swift */; };
 		9DD41CCA25D8005200E4CB99 /* WatchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD41CC925D8005200E4CB99 /* WatchListViewController.swift */; };
 		9DD41CCF25D80C3000E4CB99 /* MMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD41CCE25D80C3000E4CB99 /* MMViewController.swift */; };
-		9DD41CD525D80F3200E4CB99 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9DD41CD425D80F3200E4CB99 /* Alamofire */; };
 		9DD41CDA25D80F6300E4CB99 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD41CD925D80F6300E4CB99 /* LoginViewModel.swift */; };
 		9DEC3DF425D564F300DCA64C /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC3DF325D564F300DCA64C /* UIColor+Additions.swift */; };
 		A9145F9B04E4FF041C034CB6 /* Pods_MazeMoviesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C9F1A63AA944458BAF1A29 /* Pods_MazeMoviesTests.framework */; };
@@ -90,7 +89,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E31F4BF4BCE10834655FD8D5 /* Pods_MazeMovies.framework in Frameworks */,
-				9DD41CD525D80F3200E4CB99 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,7 +241,6 @@
 			);
 			name = MazeMovies;
 			packageProductDependencies = (
-				9DD41CD425D80F3200E4CB99 /* Alamofire */,
 			);
 			productName = MazeMovies;
 			productReference = 9D4C1D5225CFD0E600B59669 /* MazeMovies.app */;
@@ -319,7 +316,6 @@
 			);
 			mainGroup = 9D4C1D4925CFD0E600B59669;
 			packageReferences = (
-				9DD41CD325D80F3200E4CB99 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 9D4C1D5325CFD0E600B59669 /* Products */;
 			projectDirPath = "";
@@ -793,25 +789,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		9DD41CD325D80F3200E4CB99 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.4.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		9DD41CD425D80F3200E4CB99 /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9DD41CD325D80F3200E4CB99 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
-/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		9D4C1D5E25CFD0E600B59669 /* MazeMovies.xcdatamodeld */ = {
