@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,6 +24,8 @@
 		9DD41CC525D8004400E4CB99 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD41CC425D8004400E4CB99 /* FavoritesViewController.swift */; };
 		9DD41CCA25D8005200E4CB99 /* WatchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD41CC925D8005200E4CB99 /* WatchListViewController.swift */; };
 		9DD41CCF25D80C3000E4CB99 /* MMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD41CCE25D80C3000E4CB99 /* MMViewController.swift */; };
+		9DD41CD525D80F3200E4CB99 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9DD41CD425D80F3200E4CB99 /* Alamofire */; };
+		9DD41CDA25D80F6300E4CB99 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD41CD925D80F6300E4CB99 /* LoginViewModel.swift */; };
 		9DEC3DF425D564F300DCA64C /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC3DF325D564F300DCA64C /* UIColor+Additions.swift */; };
 		A9145F9B04E4FF041C034CB6 /* Pods_MazeMoviesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C9F1A63AA944458BAF1A29 /* Pods_MazeMoviesTests.framework */; };
 		E31F4BF4BCE10834655FD8D5 /* Pods_MazeMovies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CCA84B65B2B5ACE84F17EA /* Pods_MazeMovies.framework */; };
@@ -76,6 +78,7 @@
 		9DD41CC425D8004400E4CB99 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		9DD41CC925D8005200E4CB99 /* WatchListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListViewController.swift; sourceTree = "<group>"; };
 		9DD41CCE25D80C3000E4CB99 /* MMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMViewController.swift; sourceTree = "<group>"; };
+		9DD41CD925D80F6300E4CB99 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		9DEC3DF325D564F300DCA64C /* UIColor+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
 		DA48FD1ECD6DAE0E328158AC /* Pods-MazeMoviesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MazeMoviesTests.release.xcconfig"; path = "Target Support Files/Pods-MazeMoviesTests/Pods-MazeMoviesTests.release.xcconfig"; sourceTree = "<group>"; };
 		DFD0EC7406F62E4FDD9A639D /* Pods-MazeMoviesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MazeMoviesTests.debug.xcconfig"; path = "Target Support Files/Pods-MazeMoviesTests/Pods-MazeMoviesTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -87,6 +90,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E31F4BF4BCE10834655FD8D5 /* Pods_MazeMovies.framework in Frameworks */,
+				9DD41CD525D80F3200E4CB99 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +156,7 @@
 				9D4C1D6125CFD0E900B59669 /* Assets.xcassets */,
 				9D4C1D9925CFDF4400B59669 /* Supporting Files */,
 				9DD41CAF25D7FF4100E4CB99 /* View Controllers */,
+				9DD41CDE25D80F6B00E4CB99 /* View Model */,
 				9D4C1D6325CFD0E900B59669 /* LaunchScreen.storyboard */,
 				9D4C1D6625CFD0E900B59669 /* Info.plist */,
 				9D4C1D5E25CFD0E600B59669 /* MazeMovies.xcdatamodeld */,
@@ -201,6 +206,14 @@
 			path = "View Controllers";
 			sourceTree = "<group>";
 		};
+		9DD41CDE25D80F6B00E4CB99 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DD41CD925D80F6300E4CB99 /* LoginViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
 		A24A66F01979B663059FE017 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,6 +242,9 @@
 			dependencies = (
 			);
 			name = MazeMovies;
+			packageProductDependencies = (
+				9DD41CD425D80F3200E4CB99 /* Alamofire */,
+			);
 			productName = MazeMovies;
 			productReference = 9D4C1D5225CFD0E600B59669 /* MazeMovies.app */;
 			productType = "com.apple.product-type.application";
@@ -302,6 +318,9 @@
 				Base,
 			);
 			mainGroup = 9D4C1D4925CFD0E600B59669;
+			packageReferences = (
+				9DD41CD325D80F3200E4CB99 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 9D4C1D5325CFD0E600B59669 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -436,6 +455,7 @@
 				9D4C1D5625CFD0E600B59669 /* AppDelegate.swift in Sources */,
 				9DD41CBB25D7FFFE00E4CB99 /* SearchViewController.swift in Sources */,
 				9DD41CB625D7FFEB00E4CB99 /* HomeViewController.swift in Sources */,
+				9DD41CDA25D80F6300E4CB99 /* LoginViewModel.swift in Sources */,
 				9DD41CC525D8004400E4CB99 /* FavoritesViewController.swift in Sources */,
 				9D4C1D5825CFD0E600B59669 /* SceneDelegate.swift in Sources */,
 				9DD41CCF25D80C3000E4CB99 /* MMViewController.swift in Sources */,
@@ -773,6 +793,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9DD41CD325D80F3200E4CB99 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9DD41CD425D80F3200E4CB99 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DD41CD325D80F3200E4CB99 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		9D4C1D5E25CFD0E600B59669 /* MazeMovies.xcdatamodeld */ = {
