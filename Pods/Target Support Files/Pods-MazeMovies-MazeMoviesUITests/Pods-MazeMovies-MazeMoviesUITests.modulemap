@@ -1,0 +1,6 @@
+framework module Pods_MazeMovies_MazeMoviesUITests {
+  umbrella header "Pods-MazeMovies-MazeMoviesUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
