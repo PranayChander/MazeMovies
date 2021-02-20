@@ -13,8 +13,11 @@ extension UIView {
         case safeArea(CGFloat)
         case safeAreaGreaterThanOrEqualTo(CGFloat)
     }
-    func constrain(leadingAnchor: AnchorConstraint, trailingAnchor: AnchorConstraint,
-                   topAnchor: AnchorConstraint, bottomAnchor: AnchorConstraint) {
+
+    func constrain(leadingAnchor: AnchorConstraint,
+                   trailingAnchor: AnchorConstraint,
+                   topAnchor: AnchorConstraint,
+                   bottomAnchor: AnchorConstraint) {
         guard let superview = self.superview else {
             fatalError("SuperView can't be nil")
         }
@@ -68,6 +71,7 @@ extension UIView {
         }
         NSLayoutConstraint.activate(constraints)
     }
+
     func constrainToSuperview(leadingConstant leading: CGFloat = 0.0,
                               trailingConstant trailing: CGFloat = 0.0,
                               topConstant top: CGFloat = 0.0,
