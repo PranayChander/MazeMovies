@@ -1,9 +1,9 @@
 # MazeMovies
 An iOS App which contains a collection of Movies similiar to IMDB.
 Features:
-  1) MVVM Design Pattern 
-  2) Combine Framework
-  3) Compositional CollectionView Layout 
+  1) MVVM Design Pattern :heavy_check_mark:
+  2) Combine Framework :heavy_check_mark:
+  3) Compositional CollectionView Layout :heavy_check_mark:
   4) Diffable DataSource
   5) SwiftUI
   
