@@ -22,7 +22,9 @@ class LoginViewController: MMViewController {
     lazy private var userNameTextField: UITextField = {
         let textField = UITextField()
         textField.borderStyle = .roundedRect
-        textField.placeholder = "Username"
+        textField.backgroundColor = .white
+        textField.attributedPlaceholder = NSAttributedString(string: "Username",
+                                                             attributes: [.foregroundColor: UIColor.gray])
         return textField
     }()
 
@@ -33,7 +35,9 @@ class LoginViewController: MMViewController {
     lazy private var passwordTextField: UITextField = {
         let textField = UITextField()
         textField.borderStyle = .roundedRect
-        textField.placeholder = "Password"
+        textField.backgroundColor = .white
+        textField.attributedPlaceholder = NSAttributedString(string: "Password",
+                                                             attributes: [.foregroundColor: UIColor.gray])
         textField.isSecureTextEntry = true
         return textField
     }()

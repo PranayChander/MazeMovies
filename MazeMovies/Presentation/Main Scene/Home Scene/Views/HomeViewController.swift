@@ -32,7 +32,7 @@ class HomeViewController: MMViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.collectionView = UICollectionView(frame: self.view.frame, collectionViewLayout: createLayout())
-        self.collectionView.backgroundColor = .white
+        self.collectionView.backgroundColor = .systemBackground
         self.collectionView.dataSource = self
         self.view.addSubview(self.collectionView)
         self.collectionView.constrainToSafeArea()
@@ -93,11 +93,11 @@ class HomeViewController: MMViewController {
             widthDimension: .fractionalWidth(1.0),
             heightDimension: .fractionalHeight(1.0))
         let item = NSCollectionLayoutItem(layoutSize: itemSize)
-        let groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(0.2),
-                                               heightDimension: .fractionalWidth(0.2))
+        let groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(0.1),
+                                               heightDimension: .fractionalWidth(0.1))
         let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitem: item, count: 1)
         let section = NSCollectionLayoutSection(group: group)
-        section.interGroupSpacing = 5.0
+        section.interGroupSpacing = 10.0
         section.contentInsets = NSDirectionalEdgeInsets.MMCollectionViewDefaultInsets
         section.orthogonalScrollingBehavior = .groupPaging
         section.boundarySupplementaryItems = [header]

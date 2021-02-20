@@ -407,9 +407,9 @@
 		9DEE6C8325E14A5400EA5866 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9D4C1D6625CFD0E900B59669 /* Info.plist */,
 				9D4C1D6325CFD0E900B59669 /* LaunchScreen.storyboard */,
 				9D4C1D6125CFD0E900B59669 /* Assets.xcassets */,
+				9D4C1D6625CFD0E900B59669 /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -845,7 +845,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77S45L7QZX;
-				INFOPLIST_FILE = MazeMovies/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MazeMovies/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -866,7 +866,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77S45L7QZX;
-				INFOPLIST_FILE = MazeMovies/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MazeMovies/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
